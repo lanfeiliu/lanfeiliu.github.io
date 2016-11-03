@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header .navbar{
+  background-color: #ffffff;
+  padding: 20px;
+  border: 0px;
+}
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+header #nav2 {
+  display: flex;
+
+  }
+
+#navbotton  {
+  padding: 8px 20px;
+  margin: 20px;
+  color: #555555;
+}
+
+#navbotton.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#navbotton:hover:not(.active) {
+  background-color: #666;
+  color: white;
+}
+
+/* visited link */
+#navbotton:visited {
+    color: #098DBB;
+}
+
+.jumbotron{
+  display: flex;
+  margin:0px;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: 000000;
+  font-size: 26px;
+} 
+
+#img1{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Maple_P1.jpg"); 
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+
+#img2{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("Ruddiman_P1.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img3{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("Detroit_P1.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img4{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url(" Affordable_Housing_Inventory Map.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+.jumbotron h3 {
+  margin: 0 0 18px;
+  font-weight: 700;
+}
+
+.jumbotron h4 {
+  margin: 0 0 15px;
+  font-weight: 600;
+  position: relative;
+  left:100px;
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #C50A0A;
+  position: relative;
+  left:200px;
+  font-weight: 700;
+}
+
+.btn.btn-primary:hover {
+  color: #7DFA80;
+  font-weight: 900;
+  background-color: #000000;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
