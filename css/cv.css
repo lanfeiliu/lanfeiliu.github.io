@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  font-style:normal;
+
+}
+
+header .navbar{
+  background-color: #ffffff;
+  padding: 5px;
+  border: 0px;
+}
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+header #nav2 {
+  display: flex;
+  }
+
+#navbotton  {
+  padding: 5px 10px;
+  margin: 20px;
+  color: #555555;
+}
+
+#navbotton.active {
+  background-color: #098DBB;
+  color: white;
+}
+
+#navbotton:hover:not(.active) {
+  background-color: #666;
+  color: white;
+}
+
+
+.skill-set li:hover{
+  background:#54B4F9;
+}
+
+#eside{
+  margin: 6px;
+  display:table-cell;
+  height: 100%;
+
+}
+
+section.left{
+  text-align: center;
+  align:center center; 
+  padding-top:100px;
+  width: 40%
+}
+
+section.left h1{
+  font-size: 20px;
+}
+
+section.right h1{
+  font-size: 25px;
+  font-weight:600;
+  color:#54B4F9;
+}
+
+section.left p{
+  font-size: 12px;
+  font-style: normal;
+}
+
+section.right{
+  text-align: left;
+  padding: 20px;
+  padding-top:0px;
+  width: 50%
+}
+
+section p{
+  color: #777777;
+  font-style: normal;
+}
+
+section p em{
+  color: #222222;
+  font-style: normal;
+}
+
+.me-img{
+  background:url(LanfeiLiuphoto.jpg) no-repeat center center ;
+  background-size:100%;
+  background-position:center;
+  border-radius:100%;
+  height:150px;
+  margin:0 auto;
+  position:relative;
+  width:150px;
+  align-items:center center; 
+}
+
+ul{
+  list-style-type:none;
+  margin-top:-10px;
+  max-width:570px;
+  padding:0;
+}
+
+.skill-set li
+{
+  background:#098DBB;
+  border-radius:5px;
+  color:#FFF;
+  display:inline-block;
+  list-style:none;
+  margin:15px 15px 0 0;
+  padding:8px;
+  text-align:justify;
+}
+
+@media only screen and (min-width: 768px) {
+  #eside{
+  display:inline-block;
+  vertical-align: top;
+  padding-top:100px;
+  }
+  section.left{
+  padding: 50px;
+  width: 30%;
+}
+  section.right{
+  border-left: thin solid #777777;
+  text-align: left;
+  padding: 50px;
+  width: 65%;
+}
+ .allleft{
+  position: fixed;
+  align:center center; 
+}
+}
+
+@media only screen and (min-width: 1024px) {
+  section.left{
+  padding: 100px;
+  width: 27%;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .navbar{
+  background-color: #ffffff;
+  padding: 5px;
+  border: 0px;
+  align-items: center;
+}
+footer .row, footer .row {
+  display: flex;
+  align-items: center;
+}

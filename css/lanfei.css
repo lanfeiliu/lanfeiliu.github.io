@@ -8,7 +8,7 @@ body {
 
 header .navbar{
   background-color: #ffffff;
-  padding: 20px;
+  padding: 5px;
   border: 0px;
 }
 header .row, footer .row {
@@ -22,28 +22,22 @@ header h1 {
 
 header #nav2 {
   display: flex;
-
   }
 
 #navbotton  {
-  padding: 8px 20px;
+  padding: 5px 10px;
   margin: 20px;
   color: #555555;
 }
 
 #navbotton.active {
-  background-color: #4CAF50;
+  background-color: #098DBB;
   color: white;
 }
 
 #navbotton:hover:not(.active) {
   background-color: #666;
   color: white;
-}
-
-/* visited link */
-#navbotton:visited {
-    color: #098DBB;
 }
 
 .jumbotron{
@@ -123,7 +117,7 @@ header #nav2 {
 
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 footer .col-sm-8 {
@@ -139,3 +133,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
