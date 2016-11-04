@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lanfei Liu's Portfolio</title>
+  <meta charset="utf-8" />
+  <!--import bootstrap-->
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <!--import font and css-->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css' href="css/lanfei.css">
+  <link rel="stylesheet" type="text/css" href="css/lanfei.css"/>
+</head>
+
+<!--homepage content-->
+<body>
+<!--header, my icon and nav-->
+
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="row">
+      <p class="col-sm-1"></p>
+      <h1 class="col-sm-6"><a href="lanfeiliu.html">Lanfei</a></h1>
+      <div id = nav2>
+          <a id = navbotton href="#img1">Design</a>
+          <a id = navbotton href="#img3">Planning</a>
+          <a id = navbotton href="#img4">Research</a>
+          <a id = navbotton href="cv.html">CV</a>
+          <a id = navbotton href="contact.html">Contact</a>
+      </div>
+    </div>
+    </div>
+    </nav>
+  </header>
+
+  <!--background img and link to pages-->
+  <section id=img1 class="jumbotron">
+      <div class="stuff" data-type="content">
+        <h2>Lanfei Liu, </h2>
+        <h3>a landscape architectral scientist<br></h3>
+        <h4>She is always<br>try to create a harmony between man and nature<br>in her landscape architecture design</h4>
+        <a class="btn btn-primary" href="ladesign.html">look at her Landscape Architectural Design</a>
+     </div>
+  </section>
+  
+  <section id=img2 class="jumbotron">
+      <div class="stuff" data-type="content">
+        <h2>Lanfei Liu, </h2>
+        <h3>a landscape architectral scientist<br></h3>
+        <h4>She applys<br>statistical analysis methods and computer simutation <br>in developing green infrastructure</h4>
+        <a class="btn btn-primary" href="urbandesign.html">look at her Urban Design</a>
+     </div>
+  </section>
+
+  <section id=img3 class="jumbotron">
+      <div class="stuff" data-type="content">
+        <h2>Lanfei Liu, </h2>
+        <h3>a landscape architectral scientist<br></h3>
+        <h4>She is great interested in<br>colloaborating geographical information system, coding, <br> and interaction design <br>into landscape planning process</h4>
+        <a class="btn btn-primary" href="lplanning.html">look at her Landscape Planning</a>
+      </div>
+  </section>  
+
+  <section id=img4 class="jumbotron">
+      <div class="stuff" data-type="content">
+        <h2>Lanfei Liu, </h2>
+        <h3>a landscape architect and a programmer<br></h3>
+        <h4>She <br>to develop scientific design and analysis method <br>for the field of landscape architecture</h4>
+        <a class="btn btn-primary" href="research.html">look at her Research</a>
+      </div>
+  </section>  
+
+  	
+    
+<script script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"">
+$(document).ready(function(){
+   if ($(window).scrollTop() > 40) {
+       $('.stuff').hide();
+   }
+   else {
+       $('.stuff').show();
+   }
+})
+</script>
+
+<!--icon at foot-->
+<footer class="container">
+	<div class="row">
+      <p class="col-sm-4">&copy; 2016 Lanfei Liu</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <a href="http://www.linkedin.com/in/lanfeiliu/html/"><img src="icon/Linkedin-512.png"></a>
+        </li>
+        <li class="col-sm-1">
+          <a href="http://www.facebook.com/lanfei.liu.7/"><img src="icon/Facebook-512.png"></a>
+        </li>
+        <li class="col-sm-1">
+          <a herf="http://lanfeiliu.github.io/"><img src="icon/Github-512.png"></a>
+        </li>
+      </ul>
+    </div>
+</footer>
+
+
+</body>
+</html>
