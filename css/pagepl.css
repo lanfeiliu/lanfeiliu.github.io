@@ -24,7 +24,7 @@ body {
   margin-bottom: 0px;
 }
 
-.design{
+#img1{
   margin-top: 20px;
   margin-bottom: 20px;
   padding-bottom: 0px;
@@ -32,25 +32,37 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   height: 550px;
-}
-#img1{
   background-image: url("Storm_PPT1.jpg"); 
 }
 #img2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 550px;
   background-image: url("Storm_PPT2.jpg"); 
 }
 
 #img3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 550px;
   background-image: url("Storm_PPT3.jpg"); 
 }
 
-#text h1{
+.jumbotron  h1{
   text-align: left;
   font-size: 36px;
   padding-top: 0px;
 
 }
-#text p{
+.jumbotron  p{
   font-size: 14px;
 }
 
@@ -106,7 +118,7 @@ footer li img {
   margin-right:20px;
   font-size: 12px;
 }
-.design{
+#img1, #img2, #img3{
   margin-top: 5px;
   margin-bottom: 5px;
   background-size: contain;
@@ -131,7 +143,7 @@ footer li img {
   margin-bottom: 0px;
 }
 
-.design{
+#img1, #img2, #img3{
   margin-top: 0px;
   margin-bottom: 0px;
   background-size: contain;
@@ -143,10 +155,10 @@ footer li img {
   margin-right:10px;
   font-size: 12px;
 } 
-#text h1{
+.jumbotron h1{
   font-size: 25px;
 }
-#text p{
+.jumbotron  p{
   font-size: 12px;
 }
 footer li img {

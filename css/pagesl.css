@@ -32,12 +32,12 @@ body {
   background-position: center center;
   height: 90vh;
 }
-#text h1{
+.jumbotron h1{
   font-size: 36px;
   padding-top: 0px;
 
 }
-#text p{
+.jumbotron  p{
   font-size: 14px;
 }
 
@@ -126,10 +126,10 @@ footer li img {
   margin-right:10px;
   font-size: 12px;
 } 
-#text h1{
+.jumbotron  h1{
   font-size: 25px;
 }
-#text p{
+.jumbotron  p{
   font-size: 12px;
 }
 footer li img {
