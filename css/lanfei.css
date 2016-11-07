@@ -4,40 +4,14 @@ body {
   font-family: 'Open Sans', sans-serif; 
   font-size: 15px;
   font-weight: 500;
-}
-
-header .navbar{
-  background-color: #ffffff;
-  padding: 5px;
-  border: 0px;
-}
-header .row, footer .row {
-  display: flex;
   align-items: center;
 }
-
-header h1 {
-  font-weight: 700;
+.navbar-brand {
+  padding: 0px;
 }
-
-header #nav2 {
-  display: flex;
-  }
-
-#navbotton  {
-  padding: 5px 10px;
-  margin: 20px;
-  color: #555555;
-}
-
-#navbotton.active {
-  background-color: #098DBB;
-  color: white;
-}
-
-#navbotton:hover:not(.active) {
-  background-color: #666;
-  color: white;
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
 }
 
 .jumbotron{
@@ -52,9 +26,44 @@ header #nav2 {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  color: 000000;
-  font-size: 26px;
-} 
+  background-color:transparent !important;
+}
+
+.jumbotron h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.jumbotron h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.jumbotron h4 {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  left:100px;
+}
+
+.btn.btn-primary {
+  font-size: 15px
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #C50A0A;
+  position: relative;
+  left:200px;
+  font-weight: 700;
+}
+
+.btn.btn-primary:hover {
+  color: #7DFA80;
+  font-weight: 900;
+  background-color: #000000;
+}
 
 #img1{
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Maple_P1.jpg"); 
@@ -73,45 +82,8 @@ header #nav2 {
 }
 
 #img4{
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url(" Affordable_Housing_Inventory Map.jpg");
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Affordable_Housing_Inventory_Map.jpg");
   text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
-}
-
-.jumbotron h2 {
-  font-size: 50px;
-  font-weight: 700;
-  margin: 0;
-
-}
-
-.jumbotron h3 {
-  margin: 0 0 18px;
-  font-weight: 700;
-}
-
-.jumbotron h4 {
-  margin: 0 0 15px;
-  font-weight: 600;
-  position: relative;
-  left:100px;
-}
-
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #ffffff;
-  text-shadow: none;
-  background-color: #C50A0A;
-  position: relative;
-  left:200px;
-  font-weight: 700;
-}
-
-.btn.btn-primary:hover {
-  color: #7DFA80;
-  font-weight: 900;
-  background-color: #000000;
 }
 
 
@@ -133,4 +105,83 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+.navbar-fixed-top{
+    position: relative;
+    top: auto;
+    padding:0px;
+    margin: 0px;
+}
+
+@media screen and ( max-width: 768px ){
+#navbotton  {
+  margin: 10px;
+  color: #555555;
+}
+.jumbotron{
+  background-size: cover;
+  font-size: 15px;
+  height: 600px;
+  } 
+
+.jumbotron h2 {
+  font-size: 28px;
+}
+
+.jumbotron h3 {
+  font-size: 20px;
+
+}
+
+.jumbotron h4 {
+  font-size: 12px;
+
+}
+
+.btn.btn-primary {
+  font-size: 12px;
+  position: relative;
+  left:150px;
+}
+footer{
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width: 414px){
+
+.jumbotron{
+  background-attachment: scroll;
+  background-size: cover;
+  font-size: 15px;
+  height: 300px;
+  } 
+
+.jumbotron h2 {
+  font-size: 20px;
+}
+
+.jumbotron h3 {
+  font-size: 15px;
+
+}
+
+.jumbotron h4 {
+  font-size: 8px;
+
+}
+
+.btn.btn-primary {
+  font-size: 8px;
+  position: relative;
+  left:60px;
+}
+footer li img {
+  width: 20px;
+  height: 20px;
+}
+footer{
+  font-size: 10px;
+}
+}
+
 
