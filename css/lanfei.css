@@ -137,6 +137,28 @@ footer li img {
 
 }
 
+
+#img1{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Maple_P1_sm.jpg"); 
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+
+#img2{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("Ruddiman_P1_sm.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img3{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("Detroit_P1_sm.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img4{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Affordable_Housing_Inventory_Map_sm.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
 .btn.btn-primary {
   font-size: 12px;
   position: relative;
@@ -153,20 +175,20 @@ footer{
   background-attachment: scroll;
   background-size: cover;
   font-size: 15px;
-  height: 300px;
+  height: 200px;
   } 
 
 .jumbotron h2 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .jumbotron h3 {
-  font-size: 15px;
+  font-size: 17px;
 
 }
 
 .jumbotron h4 {
-  font-size: 8px;
+  font-size: 10px;
 
 }
 
