@@ -191,7 +191,26 @@ footer{
   font-size: 10px;
 
 }
+#img1{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Maple_P1_ss.jpg"); 
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
 
+
+#img2{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("Ruddiman_P1_ss.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img3{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("Detroit_P1_ss.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img4{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Affordable_Housing_Inventory_Map_ss.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
 .btn.btn-primary {
   font-size: 8px;
   position: relative;
