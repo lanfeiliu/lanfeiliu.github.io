@@ -118,6 +118,7 @@ footer li img {
   color: #555555;
 }
 .jumbotron{
+  display: block;
   background-size: cover;
   font-size: 15px;
   height: 600px;
