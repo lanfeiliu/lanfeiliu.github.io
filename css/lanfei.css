@@ -86,10 +86,10 @@ body {
   text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
 }
 
-
 footer {
-  font-size: 12px;
-  padding: 40px 0;
+  font-size: 10px;
+  padding: 10px 0;
+  bottom: 0px;
 }
 
 footer .col-sm-8 {
@@ -105,12 +105,6 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-.navbar-fixed-top{
-    position: relative;
-    top: auto;
-    padding:0px;
-    margin: 0px;
-}
 
 @media screen and ( max-width: 768px ){
 
@@ -121,7 +115,7 @@ footer li img {
 .jumbotron{
   background-size: cover;
   font-size: 15px;
-  height: 380px;
+  height: 100vh;
   } 
 
 .jumbotron h2 {
@@ -177,7 +171,7 @@ footer{
   background-attachment: scroll;
   background-size: cover;
   font-size: 15px;
-  height: 200px;
+  height: 50vh;
   } 
 
 .jumbotron h2 {
@@ -204,12 +198,19 @@ footer li img {
   width: 20px;
   height: 20px;
 }
-footer{
-  font-size: 10px
+footer {
+  font-size: 8px;
+  padding: 5px 0;
+  bottom: 0px;
 }
 }
 
-@media only and (max-width: 414px){
+@media screen and (max-width: 414px){
+
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
+}
 
 #img1{
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Maple_P1_ss.jpg"); 

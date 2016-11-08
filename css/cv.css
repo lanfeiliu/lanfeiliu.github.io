@@ -4,8 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif; 
   font-size: 15px;
   font-weight: 500;
-  font-style:normal;
-
+  margin-top: 60px;
 }
 
 .navbar-brand {
@@ -124,8 +123,11 @@ ul{
   padding:8px;
   text-align:justify;
 }
-
-
+footer {
+  font-size: 12px;
+  padding: 40px 0;
+  bottom: 0px;
+}
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
@@ -182,8 +184,10 @@ section.right p{
 }
 
 
-footer{
-  font-size: 10px
+footer {
+  font-size: 10px;
+  padding: 10px 0;
+  bottom: 0px;
 }
 }
 
@@ -249,8 +253,10 @@ footer li img {
   width: 20px;
   height: 20px;
 }
-footer{
-  font-size: 10px
+footer {
+  font-size: 8px;
+  padding: 5px 0;
+  bottom: 0px;
 }
 }
 

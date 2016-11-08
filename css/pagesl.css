@@ -4,6 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif; 
   font-size: 15px;
   font-weight: 500;
+  margin-top: 60px;
 }
 
 .navbar-brand {
@@ -21,9 +22,11 @@ body {
   margin-left:40px;
   margin-right:40px;
 }
-
+.col-sm-12{
+  margin-top: 20px;
+}
 #design{
-  margin-top: 70px;
+  margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   background-image: url("Maple_plan.jpg"); 
@@ -57,6 +60,7 @@ body {
 footer {
   font-size: 12px;
   padding: 40px 0;
+  bottom: 0px;
 }
 
 footer .col-sm-8 {
@@ -73,14 +77,6 @@ footer li img {
   height: 32px;
 }
 
-.navbar-fixed-top{
-  position: relative;
-  top: auto;
-  padding:0px;
-  margin: 0px;
-}
-
-
 @media screen and (max-width: 768px) {
 .jumbotron{
   margin-left:20px;
@@ -92,14 +88,15 @@ footer li img {
   font-size: 12px;
 }
 #design{
-  margin-top: 70px;
   background-size: contain;
   background-position: center center;
   height: 500px;
   }
 
-footer{
-  font-size: 10px
+footer {
+  font-size: 10px;
+  padding: 10px 0;
+  bottom: 0px;
 }
 footer li img {
   width: 25px;
@@ -136,8 +133,10 @@ footer li img {
   width: 20px;
   height: 20px;
 }
-footer{
-  font-size: 10px
+footer {
+  font-size: 8px;
+  padding: 5px 0;
+  bottom: 0px;
 }
 }
 
