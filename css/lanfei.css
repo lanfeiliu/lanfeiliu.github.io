@@ -188,7 +188,7 @@ footer{
   background-attachment: scroll;
   background-size: cover;
   font-size: 15px;
-  height: 30vh;
+  height: 35vh;
   } 
 
 .stuff h2 {
@@ -205,12 +205,12 @@ footer{
 
 .btn.btn-primary {
   color:#222222;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 2px;
   font-size: 8px;
   position: relative;
   left:0px;
-  top:10vh;
+  top:13vh;
 }
 
 .btn.btn-primary:hover {
