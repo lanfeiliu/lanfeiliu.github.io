@@ -5,6 +5,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   align-items: center;
+  margin-top: 50px;
 }
 .navbar-brand {
   padding: 0px;
@@ -12,6 +13,10 @@ body {
 .navbar-brand>img {
   height: 120%;
   width: auto;
+}
+
+#headtext{
+  display: none;
 }
 
 .jumbotron{
@@ -41,8 +46,8 @@ body {
 }
 
 .stuff h4 {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   position: relative;
   left:100px;
 }
@@ -130,7 +135,7 @@ footer li img {
 }
 
 .stuff h4 {
-  font-size: 12px;
+  font-size: 15px;
 
 }
 
@@ -166,40 +171,54 @@ footer{
 }
 
 @media screen and (max-width: 414px){
+#headtext{
+  display: inline;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+  color:#098DBB;
+}
+
+#headimg{
+  display: none;
+
+}
 
 .jumbotron{
   background-attachment: scroll;
   background-size: cover;
   font-size: 15px;
-  height: 100vh;
+  height: 22vh;
   } 
 
 .stuff h2 {
-  font-size: 20px;
-  margin: 0;
-  position: relative;
-  top:120px;
+  display: none;
 }
 
 .stuff h3 {
-  font-size: 14px;
-  position: relative;
-  top:120px;
+  display: none;
 }
 
 .stuff h4 {
-  font-size: 10px;
-  position: relative;
-  left:0px;
-  top:120px;
+  display: none;
 }
 
 .btn.btn-primary {
+  color:#222222;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2px;
   font-size: 8px;
   position: relative;
   left:0px;
-  top:120px;
+  top:55px;
 }
+
+.btn.btn-primary:hover {
+  color: #C50A0A;
+  font-weight: 900;
+  background-color: #222222;
+}
+
 footer li img {
   width: 20px;
   height: 20px;
@@ -209,14 +228,7 @@ footer {
   padding: 5px 0;
   bottom: 0px;
 }
-}
 
-@media screen and (max-width: 414px){
-
-.navbar-brand>img {
-  height: 120%;
-  width: auto;
-}
 
 #img1{
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Maple_P1_ss.jpg"); 
@@ -237,6 +249,7 @@ footer {
 #img4{
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("Affordable_Housing_Inventory_Map_ss.jpg");
   
+}
 }
 
 
