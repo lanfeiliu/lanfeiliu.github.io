@@ -188,7 +188,7 @@ footer{
   background-attachment: scroll;
   background-size: cover;
   font-size: 15px;
-  height: 22vh;
+  height: 30vh;
   } 
 
 .stuff h2 {
@@ -210,7 +210,7 @@ footer{
   font-size: 8px;
   position: relative;
   left:0px;
-  top:8vh;
+  top:10vh;
 }
 
 .btn.btn-primary:hover {
