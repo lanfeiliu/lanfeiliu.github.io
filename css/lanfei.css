@@ -174,25 +174,23 @@ footer{
   height: 50vh;
   } 
 
-.jumbotron h2 {
-  font-size: 18px;
+.stuff h2{
+  display: none;
 }
 
-.jumbotron h3 {
-  font-size: 12px;
-  margin-top:0px;
-  margin-bottom:0px;
-
+.stuff h3 {
+  display: none;
 }
 
-.jumbotron h4 {
-  font-size: 8px;
+.stuff h4 {
+  display: none;
 }
 
 .btn.btn-primary {
   font-size: 8px;
   position: relative;
-  left:60px;
+  left:0px;
+  
 }
 footer li img {
   width: 20px;
