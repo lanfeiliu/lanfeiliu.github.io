@@ -29,18 +29,18 @@ body {
   background-color:transparent !important;
 }
 
-.jumbotron h2 {
+.stuff h2 {
   font-size: 40px;
   font-weight: 700;
   margin: 0;
 }
 
-.jumbotron h3 {
+.stuff h3 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.jumbotron h4 {
+.stuff h4 {
   font-size: 15px;
   font-weight: 600;
   position: relative;
@@ -118,18 +118,18 @@ footer li img {
   height: 100vh;
   } 
 
-.jumbotron h2 {
+.stuff h2 {
   font-size: 28px;
 }
 
-.jumbotron h3 {
+.stuff h3 {
   font-size: 20px;
   margin-top:5px;
   margin-bottom:5px;
 
 }
 
-.jumbotron h4 {
+.stuff h4 {
   font-size: 12px;
 
 }
@@ -174,23 +174,31 @@ footer{
   height: 100vh;
   } 
 
-.stuff h2{
-  display: none;
+.stuff h2 {
+  font-size: 20px;
+  margin: 0;
+  position: relative;
+  top:120px;
 }
 
 .stuff h3 {
-  display: none;
+  font-size: 14px;
+  position: relative;
+  top:120px;
 }
 
 .stuff h4 {
-  display: none;
+  font-size: 10px;
+  position: relative;
+  left:0px;
+  top:120px;
 }
 
 .btn.btn-primary {
   font-size: 8px;
   position: relative;
   left:0px;
-  
+  top:120px;
 }
 footer li img {
   width: 20px;
