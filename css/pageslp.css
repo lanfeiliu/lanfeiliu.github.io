@@ -19,14 +19,22 @@ body {
   background-color:transparent !important;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left:40px;
+  margin-right:40px;
 }
-.col-sm-6 .col-md-4{
-  display: inline;
-  padding: 10px;
+.col-sm-12{
+  margin-top: 20px;
 }
-
+#design{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-image: url("Maple_plan.jpg"); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+}
 .jumbotron h1{
   font-size: 36px;
   padding-top: 0px;
@@ -37,30 +45,17 @@ body {
 }
 
 .row{
-
-  display: inline;
+  margin-left:85px;
+  margin-right:85px;
   align-items: center;
   text-align: center;
   color:#666666;
   font-style: italic;
   font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
-
 }
 .row img {
   width: 100%;
 }
-
-img.hover-shadow {
-  transition: 0.3s
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.5), 0 8px 25px 0 rgba(0, 0, 0, 0.19)
-}
-
 
 footer {
   font-size: 12px;
@@ -84,13 +79,19 @@ footer li img {
 
 @media screen and (max-width: 768px) {
 .jumbotron{
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:20px;
+  margin-right:20px;
 }
 .row{
+  margin-left:20px;
+  margin-right:20px;
   font-size: 12px;
 }
-
+#design{
+  background-size: contain;
+  background-position: center center;
+  height: 500px;
+  }
 
 footer {
   font-size: 10px;
@@ -110,7 +111,16 @@ footer li img {
   margin-right:10px;
 }
 
+#design{
+  margin-top: 40px;
+  background-image: url("Maple_plan.jpg"); 
+  background-size: contain;
+  background-position: center center;
+  height: 300px;
+  }
 .row{
+  margin-left:10px;
+  margin-right:10px;
   font-size: 12px;
 } 
 .jumbotron  h1{
