@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
+}
+
+section .row img {
+  margin: 30px 0 0px 0;
+  width: 100%;
+}
+
+section .row img:hover { 
+  filter: brightness(120%);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.05, 1.05);
+}
+
+section .row img:active {
+  transform: scale(0.95, 0.95)
+}
+
+footer {
+  font-size: 12px;
+  padding: 40px 0;
+  bottom: 0px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.row{
+  margin-left:20px;
+  margin-right:20px;
+  font-size: 12px;
+}
+
+section .row img {
+  margin: 0px 0 0px 0;
+  width: 100%;
+}
+
+footer {
+  font-size: 10px;
+  padding: 10px 0;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 414px) {
+
+.row{
+  margin-left:10px;
+  margin-right:10px;
+  font-size: 12px;
+} 
+
+section .row img {
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+footer li img {
+  width: 20px;
+  height: 20px;
+}
+footer {
+  font-size: 8px;
+  padding: 5px 0;
+  bottom: 0px;
+}
+}
+
