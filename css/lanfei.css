@@ -91,6 +91,16 @@ body {
   text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
 }
 
+#img5{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("../images/Literature_Review_Table.jpg");
+  text-shadow: 0px 0px 100px  white, 0px 0px 80px  white, 0px 0px 100px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img5 .stuff h4{
+  background-color: white;
+  padding: white;
+}
+
 footer {
   font-size: 10px;
   padding: 10px 0;
@@ -160,11 +170,22 @@ footer li img {
   text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
 }
 
+#img5{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("../images/Literature_Review_Table.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img5 .stuff h4{
+  background-color: white;
+  opacity: 0.8;
+}
+
 .btn.btn-primary {
   font-size: 12px;
   position: relative;
   left:150px;
 }
+
 footer{
   font-size: 10px;
 }
