@@ -295,7 +295,7 @@ footer{
 
 #img6.jumbotron{
   text-shadow: none;
-  height: 20vh;
+  height: 30vh;
   padding: 0 0 0 0;
   background-color: #098DBB;
 }
@@ -316,7 +316,7 @@ footer{
 .btn.btn-primary {
   text-align: center;
   
-  font-size: 10px;
+  font-size: 15px;
   position: relative;
   left:0px;
   top:1vh;
