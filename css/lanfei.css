@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  margin-top: 50px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
+}
+
+#headtext{
+  display: none;
+}
+
+.jumbotron{
+  display: flex;
+  margin:0px;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color:transparent !important;
+}
+
+.stuff h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.stuff h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.stuff h4 {
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+  left:100px;
+}
+
+.btn.btn-primary {
+  font-size: 15px
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #C50A0A;
+  position: relative;
+  left:200px;
+  font-weight: 700;
+}
+
+.btn.btn-primary:hover {
+  color: #7DFA80;
+  font-weight: 900;
+  background-color: #000000;
+}
+
+#img1{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("../images/Maple_P1.jpg"); 
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+
+#img2{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("../images/Ruddiman_P1.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img3{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("../images/Detroit_P1.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img4{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("../images/Affordable_Housing_Inventory_Map.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+footer {
+  font-size: 10px;
+  padding: 10px 0;
+  bottom: 0px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and ( max-width: 768px ){
+
+#navbotton  {
+  margin: 10px;
+  color: #555555;
+}
+.jumbotron{
+  background-size: cover;
+  font-size: 15px;
+  height: 100vh;
+  } 
+
+.stuff h2 {
+  font-size: 28px;
+}
+
+.stuff h3 {
+  font-size: 20px;
+  margin-top:5px;
+  margin-bottom:5px;
+
+}
+
+.stuff h4 {
+  font-size: 15px;
+
+}
+
+#img1{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("../images/Maple_P1_sm.jpg"); 
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+
+#img2{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("../images/Ruddiman_P1_sm.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img3{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("../images/Detroit_P1_sm.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+#img4{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("../images/Affordable_Housing_Inventory_Map_sm.jpg");
+  text-shadow: 0px 0px 80px  white, 0px 0px 80px  white, 0px 0px 20px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+}
+
+.btn.btn-primary {
+  font-size: 12px;
+  position: relative;
+  left:150px;
+}
+footer{
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width: 414px){
+#headtext{
+  display: inline;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+  color:#098DBB;
+}
+
+#headimg{
+  display: none;
+
+}
+
+.jumbotron{
+  background-attachment: scroll;
+  background-size: cover;
+  font-size: 15px;
+  height: 35vh;
+  } 
+
+.stuff h2 {
+  display: none;
+}
+
+.stuff h3 {
+  display: none;
+}
+
+.stuff h4 {
+  display: none;
+}
+
+.btn.btn-primary {
+  color:#222222;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2px;
+  font-size: 8px;
+  position: relative;
+  left:0px;
+  top:13vh;
+}
+
+.btn.btn-primary:hover {
+  color: #C50A0A;
+  font-weight: 900;
+  background-color: #222222;
+}
+
+footer li img {
+  width: 20px;
+  height: 20px;
+}
+footer {
+  font-size: 8px;
+  padding: 5px 0;
+  bottom: 0px;
+}
+
+
+#img1{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("../images/Maple_P1_ss.jpg"); 
+  
+}
+
+
+#img2{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("../images/Ruddiman_P1_ss.jpg");
+  
+}
+
+#img3{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("../images/Detroit_P1_ss.jpg");
+  
+}
+
+#img4{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("../images/Affordable_Housing_Inventory_Map_ss.jpg");
+  
+}
+}
+
+

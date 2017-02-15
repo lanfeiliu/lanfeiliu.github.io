@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
+}
+.jumbotron{
+  text-align: justify;
+  background-color:transparent !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left:20px;
+  margin-right:20px;
+}
+.col-sm-6 .col-md-4{
+  display: inline;
+  padding: 10px;
+}
+
+.jumbotron h1{
+  font-size: 36px;
+  padding-top: 0px;
+
+}
+.jumbotron  p{
+  font-size: 14px;
+}
+
+.row{
+
+  display: inline;
+  align-items: center;
+  text-align: center;
+  color:#666666;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+
+}
+.row img {
+  width: 100%;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.5), 0 8px 25px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 40px 0;
+  bottom: 0px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+.jumbotron{
+  margin-left:10px;
+  margin-right:10px;
+}
+.row{
+  font-size: 12px;
+}
+
+
+footer {
+  font-size: 10px;
+  padding: 10px 0;
+  bottom: 0px;
+}
+footer li img {
+  width: 25px;
+  height: 25px;
+}
+
+}
+
+@media screen and (max-width: 414px) {
+.jumbotron{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.row{
+  font-size: 12px;
+} 
+.jumbotron  h1{
+  font-size: 25px;
+}
+.jumbotron  p{
+  font-size: 12px;
+}
+footer li img {
+  width: 20px;
+  height: 20px;
+}
+footer {
+  font-size: 8px;
+  padding: 5px 0;
+  bottom: 0px;
+}
+}
+

@@ -14,20 +14,46 @@ body {
   height: 120%;
   width: auto;
 }
-
-section .row img {
-  margin: 30px 0 0px 0;
-  width: 100%;
+section {
+  align-content: center;
+}
+.row{
+  text-align: center;
+  color:#ffffff;
+  font-style: italic;
+  font-size: 14px;
 }
 
-section .row img:hover { 
-  filter: brightness(120%);
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 12px 40px 0 rgba(0, 0, 0, 0.5);
-  transform: scale(1.05, 1.05);
+
+.col-sm-6 {
+  align-content: center;
+  display: flex;
+  margin:40px;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 340px;
+  justify-content: center;
+  background-color:transparent !important;
+  font-size: 30px;
+  font-weight: 700;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 20px;
+
+}
+#img1 {
+  text-shadow: 0px 0px 80px  white;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("../images/AH_Report.jpg"); 
+}
+#img2 {
+  text-shadow: 0px 0px 80px  white,0px 0px 80px  white;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("../images/Br_PosCare.jpg"); 
 }
 
-section .row img:active {
-  transform: scale(0.95, 0.95)
+.col-sm-6:hover { 
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
 footer {
@@ -59,29 +85,27 @@ footer li img {
   font-size: 12px;
 }
 
-section .row img {
-  margin: 0px 0 0px 0;
-  width: 100%;
-}
-
 footer {
   font-size: 10px;
   padding: 10px 0;
   bottom: 0px;
 }
+}
 
 @media screen and (max-width: 414px) {
-
+.col-sm-6 {
+  height: 250px;
+  width: 180px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
 .row{
   margin-left:10px;
   margin-right:10px;
   font-size: 12px;
 } 
 
-section .row img {
-  margin: 0 0 0 0;
-  width: 100%;
-}
 
 footer li img {
   width: 20px;
