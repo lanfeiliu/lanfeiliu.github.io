@@ -169,7 +169,7 @@ footer li img {
 
 #img6.jumbotron{
   text-shadow: none;
-  height: 20vh;
+  height: 30vh;
   padding: 0 0 0 0;
   background-color: #098DBB;
 }
@@ -186,7 +186,7 @@ footer li img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20vh;
+  height: 30vh;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
