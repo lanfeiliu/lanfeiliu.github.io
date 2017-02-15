@@ -4,6 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif; 
   font-size: 15px;
   font-weight: 500;
+  margin-top:40px;
 }
 
 .navbar-brand {
@@ -12,6 +13,35 @@ body {
 .navbar-brand>img {
   height: 120%;
   width: auto;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+  background-color: #098DBB;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #098DBB;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background:#54B4F9;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #098DBB;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #098DBB;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+#headtext{
+  display: none;
 }
 .col-sm-12{
   margin-top: 20px;
@@ -46,6 +76,75 @@ body {
   width: 100%;
 }
 
+.btn.btn-primary {
+  font-size: 20px;
+  border: 0px;
+  border-radius: 0px;
+  position: relative;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+  color:#C50A0A;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-width: 4px;
+  border-color: #C50A0A;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #C50A0A;
+}
+
+.btn.btn-primary:hover:after{
+  content: " >>> ";
+}
+
+#buttonblue{
+  background-color: #54B4F9;
+  color:white;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #54B4F9;
+  text-shadow: none;
+}
+
+#buttonblue:hover {
+  background-color: #54B4F9;
+}
+
+#img6{
+  text-shadow: 0px 0px 100px  white, 0px 0px 80px  white, 0px 0px 100px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+  height: 40vh;
+}
+
+#img6.jumbotron{
+  text-shadow: 0px 0px 100px  white, 0px 0px 80px  white, 0px 0px 100px  white, 0px 0px 20px  white, 0px 0px 20px  white;
+  height: 40vh;
+  padding: 0 0 0 0;
+  background-color: #098DBB;
+}
+
+.img6overlay{
+  color:white;
+  background-color: #098DBB;
+  width:100%;
+  display: flex;
+  padding: 0 0 0 0;
+  margin:0 0 0 0;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 footer {
   font-size: 12px;
   padding: 40px 0;
@@ -78,6 +177,11 @@ footer li img {
   font-size: 12px;
 }
 
+.btn.btn-primary {
+  font-size: 17px;
+  position: relative;
+}
+
 footer {
   font-size: 10px;
   padding: 10px 0;
@@ -102,6 +206,70 @@ footer {
 .jumbotron  p{
   font-size: 12px;
 }
+
+#img6.jumbotron{
+  text-shadow: none;
+  height: 20vh;
+  padding: 0 0 0 0;
+  background-color: #098DBB;
+}
+
+.img6overlay{
+  color:white;
+  background-color: #098DBB;
+  width:100%;
+  display: flex;
+  padding: 0 0 0 0;
+  margin:0 0 0 0;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.btn.btn-primary {
+  text-align: center;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 15px;
+  position: relative;
+  left:0px;
+  top:1vh;
+  text-shadow: none;
+}
+
+.btn.btn-primary:hover {
+  color: #098DBB;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-width: 0px;
+}
+
+.btn.btn-primary:after{
+  content: " >>> ";
+}
+
+#buttonblue{
+  background-color: #54B4F9;
+  color:white;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #54B4F9;
+}
+
+#buttonblue:hover {
+  background-color: #54B4F9;
+}
+
 footer li img {
   width: 20px;
   height: 20px;
