@@ -43,6 +43,26 @@ body {
 #headtext{
   display: none;
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #54B4F9;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.navbar-toggle {
+    border: 1px solid;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #098DBB;
+}
+
 .col-sm-12{
   margin-top: 20px;
 }
