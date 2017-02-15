@@ -290,7 +290,7 @@ footer{
   background-attachment: scroll;
   background-size: cover;
   font-size: 15px;
-  height: 35vh;
+  height: 40vh;
 } 
 
 #img6.jumbotron{
@@ -315,22 +315,24 @@ footer{
 
 .btn.btn-primary {
   text-align: center;
-  color:white;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  font-size: 15px;
+  
+  font-size: 10px;
   position: relative;
   left:0px;
   top:1vh;
   text-shadow: none;
-}
-
-.btn.btn-primary:hover {
   color: #098DBB;
   font-weight: 700;
   background-color: rgba(255, 255, 255, 0.6);
+  border-width: 0px;
+}
+
+.btn.btn-primary:hover {
+  border-style: solid;
+  border-size:1px;
+  color: white;
+  font-weight: 700;
+  background-color: rgba(9,141,187, 0.6);
   border-width: 0px;
 }
 
