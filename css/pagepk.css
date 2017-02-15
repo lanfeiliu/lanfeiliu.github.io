@@ -195,7 +195,7 @@ footer li img {
 .jumbotron{
   background-size: cover;
   font-size: 15px;
-  height: 240vh;
+  height: 250vh;
   background-size: 100%;
 } 
 
@@ -242,7 +242,7 @@ footer{
   background-attachment: scroll;
   background-size: 95%;
   font-size: 15px;
-  height: 150vh;
+  height: 180vh;
 } 
 
 #img6.jumbotron{
